@@ -6,5 +6,82 @@
     "sparse attention GAT",
     "distributed GAT training",
     "low-precision GAT training"
+  ],
+  "research_study_list": [
+    {
+      "title": "GACT: Activation Compressed Training for Generic Network Architectures"
+    },
+    {
+      "title": "GACT: Activation Compressed Training for Generic Network Architectures"
+    },
+    {
+      "title": "Generative Teaching Networks: Accelerating Neural Architecture Search by Learning to Generate Synthetic Training Data"
+    },
+    {
+      "title": "Accelerating Transformer Pre-training with 2:4 Sparsity"
+    },
+    {
+      "title": "Transformer Quality in Linear Time"
+    },
+    {
+      "title": "SAC: Accelerating and Structuring Self-Attention via Sparse Adaptive Connection"
+    },
+    {
+      "title": "Adaptive Structural Fingerprints for Graph Attention Networks"
+    },
+    {
+      "title": "Transformers meet Stochastic Block Models: Attention with Data-Adaptive Sparsity and Cost"
+    },
+    {
+      "title": "A Flexible, Equivariant Framework for Subgraph GNNs via Graph Products and Graph Coarsening"
+    },
+    {
+      "title": "Efficient Attention via Control Variates"
+    },
+    {
+      "title": "SAC: Accelerating and Structuring Self-Attention via Sparse Adaptive Connection"
+    },
+    {
+      "title": "O(n) Connections are Expressive Enough: Universal Approximability of Sparse Transformers"
+    },
+    {
+      "title": "Robust Graph Representation Learning via Neural Sparsification"
+    },
+    {
+      "title": "Even Sparser Graph Transformers"
+    },
+    {
+      "title": "RSC: Accelerate Graph Neural Networks Training via Randomized Sparse Computations"
+    },
+    {
+      "title": "Dynamic Rescaling for Training GNNs"
+    },
+    {
+      "title": "Are GATs Out of Balance?"
+    },
+    {
+      "title": "GraphSAINT: Graph Sampling Based Inductive Learning Method"
+    },
+    {
+      "title": "Bandit Samplers for Training Graph Neural Networks"
+    },
+    {
+      "title": "Accelerating Gossip SGD with Periodic Global Averaging"
+    },
+    {
+      "title": "Degree-Quant: Quantization-Aware Training for Graph Neural Networks"
+    },
+    {
+      "title": "Not All Bits have Equal Value: Heterogeneous Precisions via Trainable Noise"
+    },
+    {
+      "title": "$\\rm A^2Q$: Aggregation-Aware Quantization for Graph Neural Networks"
+    },
+    {
+      "title": "Shifted and Squeezed 8-bit Floating Point format for Low-Precision Training of Deep Neural Networks"
+    },
+    {
+      "title": "Quantized Training of Gradient Boosting Decision Trees"
+    }
   ]
 }
