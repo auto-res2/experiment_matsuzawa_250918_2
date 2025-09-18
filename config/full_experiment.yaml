@@ -48,9 +48,9 @@ preprocess:
       task: 'classification'
       datasets: 
         - { name: 'imagenet_v2', split: 'test', subset: 'matched_frequency'}
-        - { name: 'haideraltahan/wds_imagenetc', subset: 'fog_3' }
-        - { name: 'haideraltahan/wds_imagenetc', subset: 'snow_4' }
-        - { name: 'haideraltahan/wds_imagenetc', subset: 'brightness_5' } # Proxy for night
+        - { name: 'hendrycks/imagenet-c', subset: 'fog_3' }
+        - { name: 'hendrycks/imagenet-c', subset: 'snow_4' }
+        - { name: 'hendrycks/imagenet-c', subset: 'brightness_5' } # Proxy for night
 
 train:
   template_model: 'ViT-B/16'

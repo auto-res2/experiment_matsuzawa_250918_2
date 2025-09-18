@@ -253,7 +253,7 @@ class LanceAdapter(BaseAdapter):
                     return mod_layer(output, delta_slice)
                 return hook
             
-            hooks = []
+hooks = []
             current_dim = 0
             for name, mod in self.mod_layers.items():
                 target_module = dict(self.model.named_modules())[name]
