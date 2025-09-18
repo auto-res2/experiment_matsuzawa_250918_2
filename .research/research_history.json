@@ -6,5 +6,82 @@
     "test-time training acceleration",
     "online adaptation speedup",
     "adaptive inference convergence"
+  ],
+  "research_study_list": [
+    {
+      "title": "TTT++: When Does Self-Supervised Test-Time Training Fail or Thrive?"
+    },
+    {
+      "title": "Persistent Test-time Adaptation in Recurring Testing Scenarios"
+    },
+    {
+      "title": "Active Test-Time Adaptation: Theoretical Analyses and An Algorithm"
+    },
+    {
+      "title": "Test Time Adaptation via Conjugate Pseudo-labels"
+    },
+    {
+      "title": "Improved Test-Time Adaptation for Domain Generalization"
+    },
+    {
+      "title": "Test Time Adaptation With Regularized Loss for Weakly Supervised Salient Object Detection"
+    },
+    {
+      "title": "Tent: Fully Test-Time Adaptation by Entropy Minimization"
+    },
+    {
+      "title": "What How and When Should Object Detectors Update in Continually Changing Test Domains?"
+    },
+    {
+      "title": "DELTA: DEGRADATION-FREE FULLY TEST-TIME ADAPTATION"
+    },
+    {
+      "title": "Test-Time Training with Self-Supervision for Generalization under Distribution Shifts"
+    },
+    {
+      "title": "Test-Time Training with Self-Supervision for Generalization under Distribution Shifts"
+    },
+    {
+      "title": "TTT++: When Does Self-Supervised Test-Time Training Fail or Thrive?"
+    },
+    {
+      "title": "Leveraging Proxy of Training Data for Test-Time Adaptation"
+    },
+    {
+      "title": "TinyTTA: Efficient Test-time Adaptation via Early-exit Ensembles on Edge Devices"
+    },
+    {
+      "title": "Revisiting Realistic Test-Time Training: Sequential Inference and Adaptation by Anchored Clustering"
+    },
+    {
+      "title": "Evaluation of Test-Time Adaptation Under Computational Time Constraints"
+    },
+    {
+      "title": "Provably Efficient Model-based Policy Adaptation"
+    },
+    {
+      "title": "Oracle-Efficient Online Learning for Smoothed Adversaries"
+    },
+    {
+      "title": "Online Agnostic Boosting via Regret Minimization"
+    },
+    {
+      "title": "Efficient Non-stationary Online Learning by Wavelets with Applications to Online Distribution Shift Adaptation"
+    },
+    {
+      "title": "Statistical Limits of Adaptive Linear Models: Low-Dimensional Estimation and Inference"
+    },
+    {
+      "title": "Asymptotics of Alpha-Divergence Variational Inference Algorithms with Exponential Families"
+    },
+    {
+      "title": "Adaptive Linear Estimating Equations"
+    },
+    {
+      "title": "Statistical Inference with M-Estimators on Adaptively Collected Data"
+    },
+    {
+      "title": "Adaptive Conformal Inference by Betting"
+    }
   ]
 }
