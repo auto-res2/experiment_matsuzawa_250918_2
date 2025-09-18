@@ -56,7 +56,10 @@ def get_transform(config, task='classification'):
 def download_and_prepare_dataset(name, config, split, cache_dir):
     try:
         logging.info(f"Attempting to load dataset: {name} with split: {split}")
-        return load_dataset(name, split=split, cache_dir=cache_dir)
+        if config:
+            return load_dataset(name, config, split=split, cache_dir=cache_dir)
+        else:
+            return load_dataset(name, split=split, cache_dir=cache_dir)
     except Exception as e:
         logging.error(f"Failed to load dataset {name}: {e}")
         raise RuntimeError('Dataset unavailable – experiment aborted as per NO-FALLBACK constraint.')
@@ -82,7 +85,7 @@ def get_dataloaders(config):
                 for corruption in ds_info['corruptions']:
                     for severity in ds_info['severities']:
                         subset_name = f'{corruption}_{severity}'
-                        d = download_and_prepare_dataset('hendrycks/imagenet-c', subset_name, split=None, cache_dir=cache_dir)
+                        d = download_and_prepare_dataset('haideraltahan/wds_imagenetc', subset_name, split=None, cache_dir=cache_dir)
                         hf_datasets.append(d)
             else:
                 d = download_and_prepare_dataset(ds_info['name'], config, split=split, cache_dir=cache_dir)

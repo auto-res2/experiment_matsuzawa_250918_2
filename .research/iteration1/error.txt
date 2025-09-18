@@ -1,0 +1,1068 @@
+/home/toma/pt-80-1-a-13/_work/experiment_matsuzawa_250918_2/experiment_matsuzawa_250918_2/.venv/lib/python3.11/site-packages/wandb/sdk/launch/builder/build.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+2025-09-18 07:12:33,368 - INFO - Loading configuration from: config/full_experiment.yaml
+2025-09-18 07:12:33,387 - INFO - Output directory set to: .research/iteration1/
+2025-09-18 07:12:33,387 - INFO - PHASE 1: Preparing data streams...
+2025-09-18 07:12:33,387 - INFO - Preparing dataloaders...
+2025-09-18 07:12:33,387 - INFO - Creating stream: imagenet-c
+2025-09-18 07:12:33,387 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]
+Downloading data:   0%|          | 0.00/4.00 [00:00<?, ?B/s][A
+Downloading data: 100%|██████████| 4.00/4.00 [00:00<00:00, 10.6B/s][ADownloading data: 100%|██████████| 4.00/4.00 [00:00<00:00, 10.6B/s]
+Downloading data files: 100%|██████████| 1/1 [00:00<00:00,  2.61it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00,  2.61it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 379.51it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 25.06 examples/s]
+2025-09-18 07:12:38,263 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2060.07it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 770.30it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 481.44 examples/s]
+2025-09-18 07:12:41,648 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2267.19it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 825.00it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 450.61 examples/s]
+2025-09-18 07:12:44,186 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2847.46it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 810.34it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 491.42 examples/s]
+2025-09-18 07:12:46,708 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2841.67it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 832.53it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 501.95 examples/s]
+2025-09-18 07:12:49,159 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2868.88it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 853.54it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 496.31 examples/s]
+2025-09-18 07:12:51,598 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 3184.74it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 931.45it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 540.16 examples/s]
+2025-09-18 07:12:54,493 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2931.03it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 812.38it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 488.85 examples/s]
+2025-09-18 07:12:57,768 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2372.34it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 894.50it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 507.72 examples/s]
+2025-09-18 07:13:00,256 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2327.58it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 843.42it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 498.67 examples/s]
+2025-09-18 07:13:02,741 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2348.43it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 839.36it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 488.62 examples/s]
+2025-09-18 07:13:05,211 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2741.38it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 854.59it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 500.33 examples/s]
+2025-09-18 07:13:07,894 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2409.13it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 854.59it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 497.37 examples/s]
+2025-09-18 07:13:11,278 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 3093.14it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 602.46it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 381.99 examples/s]
+2025-09-18 07:13:14,207 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2968.37it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 822.41it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 502.07 examples/s]
+2025-09-18 07:13:16,796 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2549.73it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 1077.40it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 627.51 examples/s]
+2025-09-18 07:13:20,043 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2924.90it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 859.66it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 515.02 examples/s]
+2025-09-18 07:13:22,460 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2757.60it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 856.16it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 493.10 examples/s]
+2025-09-18 07:13:25,021 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2457.12it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 727.80it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 505.03 examples/s]
+2025-09-18 07:13:27,614 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 3214.03it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 871.27it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 515.65 examples/s]
+2025-09-18 07:13:30,554 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2774.01it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 729.70it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 445.35 examples/s]
+2025-09-18 07:13:33,052 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2499.59it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 838.69it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 493.74 examples/s]
+2025-09-18 07:13:35,871 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2274.57it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 898.72it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 508.77 examples/s]
+2025-09-18 07:13:38,449 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 1834.78it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 879.49it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 528.52 examples/s]
+2025-09-18 07:13:40,970 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2931.03it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 854.06it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 501.11 examples/s]
+2025-09-18 07:13:43,459 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2935.13it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 859.84it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 497.60 examples/s]
+2025-09-18 07:13:45,969 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2734.23it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 893.74it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 505.46 examples/s]
+2025-09-18 07:13:48,602 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2770.35it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 859.31it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 492.12 examples/s]
+2025-09-18 07:13:51,307 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2949.58it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 851.81it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 506.86 examples/s]
+2025-09-18 07:13:54,051 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2411.91it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 881.16it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 499.86 examples/s]
+2025-09-18 07:13:56,949 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 3390.71it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 882.45it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 503.10 examples/s]
+2025-09-18 07:13:59,723 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2498.10it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 861.08it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 517.88 examples/s]
+2025-09-18 07:14:03,037 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2273.34it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 858.78it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 500.27 examples/s]
+2025-09-18 07:14:05,749 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 3271.69it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 849.05it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 516.67 examples/s]
+2025-09-18 07:14:08,168 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2253.79it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 854.93it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 513.32 examples/s]
+2025-09-18 07:14:10,732 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2323.71it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 846.65it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 476.68 examples/s]
+2025-09-18 07:14:13,245 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2303.30it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 833.03it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 474.09 examples/s]
+2025-09-18 07:14:15,685 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 3231.36it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 892.03it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 556.79 examples/s]
+2025-09-18 07:14:18,176 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 3226.39it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 1043.88it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 556.57 examples/s]
+2025-09-18 07:14:20,623 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2752.17it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 840.04it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 496.72 examples/s]
+2025-09-18 07:14:23,484 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2197.12it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 826.63it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 489.30 examples/s]
+2025-09-18 07:14:26,094 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 3088.59it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 878.57it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 504.97 examples/s]
+2025-09-18 07:14:28,560 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2452.81it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 819.52it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 469.00 examples/s]
+2025-09-18 07:14:30,981 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2037.06it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 715.51it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 455.36 examples/s]
+2025-09-18 07:14:33,480 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 3663.15it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 880.60it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 512.19 examples/s]
+2025-09-18 07:14:35,966 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 4084.04it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 1026.00it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 601.08 examples/s]
+2025-09-18 07:14:38,432 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 1951.75it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 849.57it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 502.55 examples/s]
+2025-09-18 07:14:41,127 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2434.30it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 844.60it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 514.89 examples/s]
+2025-09-18 07:14:43,732 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2892.62it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 876.74it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 529.92 examples/s]
+2025-09-18 07:14:46,331 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2597.09it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 836.02it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 504.97 examples/s]
+2025-09-18 07:14:49,035 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2380.42it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 820.32it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 479.90 examples/s]
+2025-09-18 07:14:51,531 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2727.12it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 817.28it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 490.68 examples/s]
+2025-09-18 07:14:54,159 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2847.46it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 946.58it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 563.52 examples/s]
+2025-09-18 07:14:57,493 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2959.99it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 887.68it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 525.87 examples/s]
+2025-09-18 07:14:59,911 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 3449.26it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 852.85it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 510.07 examples/s]
+2025-09-18 07:15:02,318 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2133.42it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 878.76it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 542.46 examples/s]
+2025-09-18 07:15:04,804 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 3644.05it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 785.01it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 599.02 examples/s]
+2025-09-18 07:15:07,598 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2945.44it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 881.90it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 519.87 examples/s]
+2025-09-18 07:15:10,155 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 3292.23it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 923.25it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 553.92 examples/s]
+2025-09-18 07:15:12,653 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2935.13it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 878.94it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 533.15 examples/s]
+2025-09-18 07:15:15,151 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2822.55it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 859.84it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 524.75 examples/s]
+2025-09-18 07:15:17,975 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 3039.35it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 872.00it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 512.31 examples/s]
+2025-09-18 07:15:20,374 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2641.25it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 948.29it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 553.12 examples/s]
+2025-09-18 07:15:22,934 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2603.54it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 801.36it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 497.01 examples/s]
+2025-09-18 07:15:25,388 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2699.04it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 832.20it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 501.35 examples/s]
+2025-09-18 07:15:27,886 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2557.50it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 820.80it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 494.67 examples/s]
+2025-09-18 07:15:30,434 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 3068.25it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 877.29it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 517.18 examples/s]
+2025-09-18 07:15:32,923 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2663.05it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 830.39it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 481.38 examples/s]
+2025-09-18 07:15:35,375 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2549.73it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 837.52it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 510.38 examples/s]
+2025-09-18 07:15:37,919 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2555.94it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 858.96it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 523.05 examples/s]
+2025-09-18 07:15:40,435 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2951.66it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 853.37it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 513.13 examples/s]
+2025-09-18 07:15:42,898 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2310.91it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 818.24it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 519.29 examples/s]
+2025-09-18 07:15:45,725 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2619.80it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 846.82it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 508.46 examples/s]
+2025-09-18 07:15:48,324 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 3057.07it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 864.45it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 523.31 examples/s]
+2025-09-18 07:15:50,865 - INFO - Attempting to load dataset: haideraltahan/wds_imagenetc with split: None
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 2159.79it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 838.19it/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 1 examples [00:00, 512.13 examples/s]
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /home/toma/pt-80-1-a-13/_work/experiment_matsuzawa_250918_2/experiment_matsu │
+│ zawa_250918_2/src/main.py:72 in main                                         │
+│                                                                              │
+│   69 │                                                                       │
+│   70 │   # --- Phase 1: Data Preparation ---                                 │
+│   71 │   logging.info("PHASE 1: Preparing data streams...")                  │
+│ ❱ 72 │   dataloaders = preprocess.get_dataloaders(config)                    │
+│   73 │   synthetic_generator = preprocess.create_synthetic_stream_generator( │
+│   74 │   logging.info("Data preparation complete.")                          │
+│   75                                                                         │
+│                                                                              │
+│ ╭───────────────────────────────── locals ─────────────────────────────────╮ │
+│ │          config = {                                                      │ │
+│ │                   │   'global_settings': {                               │ │
+│ │                   │   │   'seeds': [13, 37, 97],                         │ │
+│ │                   │   │   'device': 'cuda:0',                            │ │
+│ │                   │   │   'output_dir': '.research/iteration1/'          │ │
+│ │                   │   },                                                 │ │
+│ │                   │   'models': {                                        │ │
+│ │                   │   │   'ResNet-50-BN': {'source': 'resnet50'},        │ │
+│ │                   │   │   'ConvNeXt-T': {'source': 'convnext_tiny'},     │ │
+│ │                   │   │   'ViT-B/16': {                                  │ │
+│ │                   │   │   │   'source': 'vit_base_patch16_224'           │ │
+│ │                   │   │   },                                             │ │
+│ │                   │   │   'Swin-T': {                                    │ │
+│ │                   │   │   │   'source': 'swin_tiny_patch4_window7_224'   │ │
+│ │                   │   │   },                                             │ │
+│ │                   │   │   'ViT-S': {'source': 'vit_small_patch16_224'},  │ │
+│ │                   │   │   'ViT-L': {'source': 'vit_large_patch16_224'},  │ │
+│ │                   │   │   'Swin-L': {                                    │ │
+│ │                   │   │   │   'source': 'swin_large_patch4_window7_224'  │ │
+│ │                   │   │   }                                              │ │
+│ │                   │   },                                                 │ │
+│ │                   │   'preprocess': {                                    │ │
+│ │                   │   │   'cache_dir': './data/',                        │ │
+│ │                   │   │   'batch_size': 4,                               │ │
+│ │                   │   │   'num_workers': 8,                              │ │
+│ │                   │   │   'mean': [0.485, 0.456, 0.406],                 │ │
+│ │                   │   │   'std': [0.229, 0.224, 0.225],                  │ │
+│ │                   │   │   'cityscapes_mean': [0.286, 0.325, 0.283],      │ │
+│ │                   │   │   'cityscapes_std': [0.176, 0.18, 0.177],        │ │
+│ │                   │   │   'streams': {                                   │ │
+│ │                   │   │   │   'imagenet-c': {                            │ │
+│ │                   │   │   │   │   'task': 'classification',              │ │
+│ │                   │   │   │   │   'datasets': [                          │ │
+│ │                   │   │   │   │   │   {                                  │ │
+│ │                   │   │   │   │   │   │   'name': 'imagenet-c',          │ │
+│ │                   │   │   │   │   │   │   'corruptions': [               │ │
+│ │                   │   │   │   │   │   │   │   'shot_noise',              │ │
+│ │                   │   │   │   │   │   │   │   'impulse_noise',           │ │
+│ │                   │   │   │   │   │   │   │   'defocus_blur',            │ │
+│ │                   │   │   │   │   │   │   │   'glass_blur',              │ │
+│ │                   │   │   │   │   │   │   │   'motion_blur',             │ │
+│ │                   │   │   │   │   │   │   │   'zoom_blur',               │ │
+│ │                   │   │   │   │   │   │   │   'snow',                    │ │
+│ │                   │   │   │   │   │   │   │   'frost',                   │ │
+│ │                   │   │   │   │   │   │   │   'fog',                     │ │
+│ │                   │   │   │   │   │   │   │   'brightness',              │ │
+│ │                   │   │   │   │   │   │   │   ... +5                     │ │
+│ │                   │   │   │   │   │   │   ],                             │ │
+│ │                   │   │   │   │   │   │   'severities': [                │ │
+│ │                   │   │   │   │   │   │   │   1,                         │ │
+│ │                   │   │   │   │   │   │   │   2,                         │ │
+│ │                   │   │   │   │   │   │   │   3,                         │ │
+│ │                   │   │   │   │   │   │   │   4,                         │ │
+│ │                   │   │   │   │   │   │   │   5                          │ │
+│ │                   │   │   │   │   │   │   ]                              │ │
+│ │                   │   │   │   │   │   }                                  │ │
+│ │                   │   │   │   │   ]                                      │ │
+│ │                   │   │   │   },                                         │ │
+│ │                   │   │   │   'imagenet-r': {                            │ │
+│ │                   │   │   │   │   'task': 'classification',              │ │
+│ │                   │   │   │   │   'datasets': [                          │ │
+│ │                   │   │   │   │   │   {                                  │ │
+│ │                   │   │   │   │   │   │   'name': 'axiong/imagenet-r',   │ │
+│ │                   │   │   │   │   │   │   'split': 'train'               │ │
+│ │                   │   │   │   │   │   }                                  │ │
+│ │                   │   │   │   │   ]                                      │ │
+│ │                   │   │   │   },                                         │ │
+│ │                   │   │   │   'visda-c': {                               │ │
+│ │                   │   │   │   │   'task': 'classification',              │ │
+│ │                   │   │   │   │   'datasets': [                          │ │
+│ │                   │   │   │   │   │   {                                  │ │
+│ │                   │   │   │   │   │   │   'name': 'M-V-A/visda-c',       │ │
+│ │                   │   │   │   │   │   │   'split': 'validation'          │ │
+│ │                   │   │   │   │   │   }                                  │ │
+│ │                   │   │   │   │   ]                                      │ │
+│ │                   │   │   │   },                                         │ │
+│ │                   │   │   │   'cityscapes-acdc': {                       │ │
+│ │                   │   │   │   │   'task': 'segmentation',                │ │
+│ │                   │   │   │   │   'datasets': [                          │ │
+│ │                   │   │   │   │   │   {                                  │ │
+│ │                   │   │   │   │   │   │   'name': 'tackhwa/cityscapes',  │ │
+│ │                   │   │   │   │   │   │   'split': 'validation'          │ │
+│ │                   │   │   │   │   │   },                                 │ │
+│ │                   │   │   │   │   │   {                                  │ │
+│ │                   │   │   │   │   │   │   'name': 'gopro/acdc',          │ │
+│ │                   │   │   │   │   │   │   'split': 'test',               │ │
+│ │                   │   │   │   │   │   │   'subset': 'snow'               │ │
+│ │                   │   │   │   │   │   }                                  │ │
+│ │                   │   │   │   │   ]                                      │ │
+│ │                   │   │   │   },                                         │ │
+│ │                   │   │   │   'imagenet-c-sev3': {                       │ │
+│ │                   │   │   │   │   'task': 'classification',              │ │
+│ │                   │   │   │   │   'datasets': [                          │ │
+│ │                   │   │   │   │   │   {                                  │ │
+│ │                   │   │   │   │   │   │   'name': 'imagenet-c',          │ │
+│ │                   │   │   │   │   │   │   'corruptions': [               │ │
+│ │                   │   │   │   │   │   │   │   'shot_noise',              │ │
+│ │                   │   │   │   │   │   │   │   'snow',                    │ │
+│ │                   │   │   │   │   │   │   │   'fog',                     │ │
+│ │                   │   │   │   │   │   │   │   'brightness',              │ │
+│ │                   │   │   │   │   │   │   │   'contrast'                 │ │
+│ │                   │   │   │   │   │   │   ],                             │ │
+│ │                   │   │   │   │   │   │   'severities': [3]              │ │
+│ │                   │   │   │   │   │   }                                  │ │
+│ │                   │   │   │   │   ]                                      │ │
+│ │                   │   │   │   },                                         │ │
+│ │                   │   │   │   'harsh-jump-stream': {                     │ │
+│ │                   │   │   │   │   'task': 'classification',              │ │
+│ │                   │   │   │   │   'datasets': [                          │ │
+│ │                   │   │   │   │   │   {                                  │ │
+│ │                   │   │   │   │   │   │   'name': 'imagenet_v2',         │ │
+│ │                   │   │   │   │   │   │   'split': 'test',               │ │
+│ │                   │   │   │   │   │   │   'subset': 'matched_frequency'  │ │
+│ │                   │   │   │   │   │   },                                 │ │
+│ │                   │   │   │   │   │   {                                  │ │
+│ │                   │   │   │   │   │   │   'name':                        │ │
+│ │                   'haideraltahan/wds_imagenetc',                         │ │
+│ │                   │   │   │   │   │   │   'subset': 'fog_3'              │ │
+│ │                   │   │   │   │   │   },                                 │ │
+│ │                   │   │   │   │   │   {                                  │ │
+│ │                   │   │   │   │   │   │   'name':                        │ │
+│ │                   'haideraltahan/wds_imagenetc',                         │ │
+│ │                   │   │   │   │   │   │   'subset': 'snow_4'             │ │
+│ │                   │   │   │   │   │   },                                 │ │
+│ │                   │   │   │   │   │   {                                  │ │
+│ │                   │   │   │   │   │   │   'name':                        │ │
+│ │                   'haideraltahan/wds_imagenetc',                         │ │
+│ │                   │   │   │   │   │   │   'subset': 'brightness_5'       │ │
+│ │                   │   │   │   │   │   }                                  │ │
+│ │                   │   │   │   │   ]                                      │ │
+│ │                   │   │   │   }                                          │ │
+│ │                   │   │   }                                              │ │
+│ │                   │   },                                                 │ │
+│ │                   │   'train': {                                         │ │
+│ │                   │   │   'template_model': 'ViT-B/16',                  │ │
+│ │                   │   │   'epochs': 50,                                  │ │
+│ │                   │   │   'max_timesteps': 100000,                       │ │
+│ │                   │   │   'lambda_e': 1.0,                               │ │
+│ │                   │   │   'lambda_s': 0.1,                               │ │
+│ │                   │   │   'synthetic_stream': {                          │ │
+│ │                   │   │   │   'source_dataset': 'imagenet-1k',           │ │
+│ │                   │   │   │   'split': 'train',                          │ │
+│ │                   │   │   │   'batch_size': 32                           │ │
+│ │                   │   │   },                                             │ │
+│ │                   │   │   'lance_params': {                              │ │
+│ │                   │   │   │   'rank': 4,                                 │ │
+│ │                   │   │   │   'rnn_hidden_size': 32,                     │ │
+│ │                   │   │   │   'ukf_threshold_sigma': 2.0                 │ │
+│ │                   │   │   },                                             │ │
+│ │                   │   │   'ppo': {                                       │ │
+│ │                   │   │   │   'lr': [0.0001, 0.0005],                    │ │
+│ │                   │   │   │   'betas': [0.9, 0.999],                     │ │
+│ │                   │   │   │   'gamma': 0.99,                             │ │
+│ │                   │   │   │   'k_epochs': 10,                            │ │
+│ │                   │   │   │   'eps_clip': 0.2,                           │ │
+│ │                   │   │   │   'update_timestep': 2048                    │ │
+│ │                   │   │   }                                              │ │
+│ │                   │   },                                                 │ │
+│ │                   │   'evaluate': {                                      │ │
+│ │                   │   │   'exp1': {                                      │ │
+│ │                   │   │   │   'models': [                                │ │
+│ │                   │   │   │   │   'ResNet-50-BN',                        │ │
+│ │                   │   │   │   │   'ConvNeXt-T',                          │ │
+│ │                   │   │   │   │   'ViT-B/16',                            │ │
+│ │                   │   │   │   │   'Swin-T'                               │ │
+│ │                   │   │   │   ],                                         │ │
+│ │                   │   │   │   'methods': [                               │ │
+│ │                   │   │   │   │   'Source-only',                         │ │
+│ │                   │   │   │   │   {                                      │ │
+│ │                   │   │   │   │   │   'name': 'Tent',                    │ │
+│ │                   │   │   │   │   │   'params': {                        │ │
+│ │                   │   │   │   │   │   │   'steps': 5,                    │ │
+│ │                   │   │   │   │   │   │   'lr': 0.00025                  │ │
+│ │                   │   │   │   │   │   }                                  │ │
+│ │                   │   │   │   │   },                                     │ │
+│ │                   │   │   │   │   {                                      │ │
+│ │                   │   │   │   │   │   'name': 'FAST-LANA',               │ │
+│ │                   │   │   │   │   │   'params': {'lr': 0.0001}           │ │
+│ │                   │   │   │   │   },                                     │ │
+│ │                   │   │   │   │   'LANCE'                                │ │
+│ │                   │   │   │   ],                                         │ │
+│ │                   │   │   │   'streams': [                               │ │
+│ │                   │   │   │   │   'imagenet-c',                          │ │
+│ │                   │   │   │   │   'imagenet-r',                          │ │
+│ │                   │   │   │   │   'cityscapes-acdc'                      │ │
+│ │                   │   │   │   ]                                          │ │
+│ │                   │   │   },                                             │ │
+│ │                   │   │   'exp2': {                                      │ │
+│ │                   │   │   │   'models': [                                │ │
+│ │                   │   │   │   │   'ViT-S',                               │ │
+│ │                   │   │   │   │   'ViT-B/16',                            │ │
+│ │                   │   │   │   │   'ViT-L',                               │ │
+│ │                   │   │   │   │   'Swin-L'                               │ │
+│ │                   │   │   │   ],                                         │ │
+│ │                   │   │   │   'methods': [                               │ │
+│ │                   │   │   │   │   {                                      │ │
+│ │                   │   │   │   │   │   'name': 'LANCE-Full',              │ │
+│ │                   │   │   │   │   │   'type': 'LANCE'                    │ │
+│ │                   │   │   │   │   },                                     │ │
+│ │                   │   │   │   │   {                                      │ │
+│ │                   │   │   │   │   │   'name': 'LANCE-NoEnergy',          │ │
+│ │                   │   │   │   │   │   'type': 'LANCE',                   │ │
+│ │                   │   │   │   │   │   'params': {'lambda_e': 0}          │ │
+│ │                   │   │   │   │   },                                     │ │
+│ │                   │   │   │   │   {                                      │ │
+│ │                   │   │   │   │   │   'name': 'LANCE-PerChannel',        │ │
+│ │                   │   │   │   │   │   'type': 'LANCE',                   │ │
+│ │                   │   │   │   │   │   'params': {                        │ │
+│ │                   │   │   │   │   │   │   'use_low_rank': False          │ │
+│ │                   │   │   │   │   │   }                                  │ │
+│ │                   │   │   │   │   },                                     │ │
+│ │                   │   │   │   │   {                                      │ │
+│ │                   │   │   │   │   │   'name': 'LANCE-NoUKF',             │ │
+│ │                   │   │   │   │   │   'type': 'LANCE',                   │ │
+│ │                   │   │   │   │   │   'params': {'no_ukf': True}         │ │
+│ │                   │   │   │   │   },                                     │ │
+│ │                   │   │   │   │   {                                      │ │
+│ │                   │   │   │   │   │   'name': 'LANCE-StaticHypernet',    │ │
+│ │                   │   │   │   │   │   'type': 'LANCE',                   │ │
+│ │                   │   │   │   │   │   'params': {                        │ │
+│ │                   │   │   │   │   │   │   'static_hypernet': True        │ │
+│ │                   │   │   │   │   │   }                                  │ │
+│ │                   │   │   │   │   }                                      │ │
+│ │                   │   │   │   ],                                         │ │
+│ │                   │   │   │   'streams': ['imagenet-c-sev3']             │ │
+│ │                   │   │   },                                             │ │
+│ │                   │   │   'exp3': {                                      │ │
+│ │                   │   │   │   'models': ['ViT-B/16'],                    │ │
+│ │                   │   │   │   'methods': [                               │ │
+│ │                   │   │   │   │   'Source-only',                         │ │
+│ │                   │   │   │   │   {                                      │ │
+│ │                   │   │   │   │   │   'name': 'Tent',                    │ │
+│ │                   │   │   │   │   │   'params': {                        │ │
+│ │                   │   │   │   │   │   │   'steps': 1,                    │ │
+│ │                   │   │   │   │   │   │   'lr': 0.001                    │ │
+│ │                   │   │   │   │   │   }                                  │ │
+│ │                   │   │   │   │   },                                     │ │
+│ │                   │   │   │   │   {                                      │ │
+│ │                   │   │   │   │   │   'name': 'FAST-LANA',               │ │
+│ │                   │   │   │   │   │   'params': {'lr': 0.0001}           │ │
+│ │                   │   │   │   │   },                                     │ │
+│ │                   │   │   │   │   'BN-adapt',                            │ │
+│ │                   │   │   │   │   'LANCE'                                │ │
+│ │                   │   │   │   ],                                         │ │
+│ │                   │   │   │   'streams': ['harsh-jump-stream'],          │ │
+│ │                   │   │   │   'use_pgd': True,                           │ │
+│ │                   │   │   │   'pgd_interval': 2000,                      │ │
+│ │                   │   │   │   'pgd_duration': 2000,                      │ │
+│ │                   │   │   │   'pgd_params': {                            │ │
+│ │                   │   │   │   │   'eps': 0.01568,                        │ │
+│ │                   │   │   │   │   'alpha': 0.00784,                      │ │
+│ │                   │   │   │   │   'steps': 3                             │ │
+│ │                   │   │   │   }                                          │ │
+│ │                   │   │   }                                              │ │
+│ │                   │   }                                                  │ │
+│ │                   }                                                      │ │
+│ │     config_path = 'config/full_experiment.yaml'                          │ │
+│ │ full_experiment = True                                                   │ │
+│ │      output_dir = '.research/iteration1/'                                │ │
+│ │      smoke_test = False                                                  │ │
+│ ╰──────────────────────────────────────────────────────────────────────────╯ │
+│                                                                              │
+│ /home/toma/pt-80-1-a-13/_work/experiment_matsuzawa_250918_2/experiment_matsu │
+│ zawa_250918_2/src/preprocess.py:99 in get_dataloaders                        │
+│                                                                              │
+│    96 │   │   │   logging.warning(f"No datasets found for stream {stream_nam │
+│    97 │   │   │   continue                                                   │
+│    98 │   │                                                                  │
+│ ❱  99 │   │   combined_dataset = concatenate_datasets(hf_datasets).shuffle(s │
+│   100 │   │                                                                  │
+│   101 │   │   transform = seg_transform if stream_config['task'] == 'segment │
+│   102 │   │   max_samples = config.get('smoke_test', {}).get('max_frames_per │
+│                                                                              │
+│ ╭───────────────────────────────── locals ─────────────────────────────────╮ │
+│ │    batch_size = 4                                                        │ │
+│ │     cache_dir = './data/'                                                │ │
+│ │ cls_transform = Compose(                                                 │ │
+│ │                 │   Resize(size=256, interpolation=bilinear,             │ │
+│ │                 max_size=None, antialias=warn)                           │ │
+│ │                 │   CenterCrop(size=(224, 224))                          │ │
+│ │                 │   ToTensor()                                           │ │
+│ │                 │   Normalize(mean=[0.485, 0.456, 0.406], std=[0.229,    │ │
+│ │                 0.224, 0.225])                                           │ │
+│ │                 )                                                        │ │
+│ │        config = {                                                        │ │
+│ │                 │   'global_settings': {                                 │ │
+│ │                 │   │   'seeds': [13, 37, 97],                           │ │
+│ │                 │   │   'device': 'cuda:0',                              │ │
+│ │                 │   │   'output_dir': '.research/iteration1/'            │ │
+│ │                 │   },                                                   │ │
+│ │                 │   'models': {                                          │ │
+│ │                 │   │   'ResNet-50-BN': {'source': 'resnet50'},          │ │
+│ │                 │   │   'ConvNeXt-T': {'source': 'convnext_tiny'},       │ │
+│ │                 │   │   'ViT-B/16': {'source': 'vit_base_patch16_224'},  │ │
+│ │                 │   │   'Swin-T': {                                      │ │
+│ │                 │   │   │   'source': 'swin_tiny_patch4_window7_224'     │ │
+│ │                 │   │   },                                               │ │
+│ │                 │   │   'ViT-S': {'source': 'vit_small_patch16_224'},    │ │
+│ │                 │   │   'ViT-L': {'source': 'vit_large_patch16_224'},    │ │
+│ │                 │   │   'Swin-L': {                                      │ │
+│ │                 │   │   │   'source': 'swin_large_patch4_window7_224'    │ │
+│ │                 │   │   }                                                │ │
+│ │                 │   },                                                   │ │
+│ │                 │   'preprocess': {                                      │ │
+│ │                 │   │   'cache_dir': './data/',                          │ │
+│ │                 │   │   'batch_size': 4,                                 │ │
+│ │                 │   │   'num_workers': 8,                                │ │
+│ │                 │   │   'mean': [0.485, 0.456, 0.406],                   │ │
+│ │                 │   │   'std': [0.229, 0.224, 0.225],                    │ │
+│ │                 │   │   'cityscapes_mean': [0.286, 0.325, 0.283],        │ │
+│ │                 │   │   'cityscapes_std': [0.176, 0.18, 0.177],          │ │
+│ │                 │   │   'streams': {                                     │ │
+│ │                 │   │   │   'imagenet-c': {                              │ │
+│ │                 │   │   │   │   'task': 'classification',                │ │
+│ │                 │   │   │   │   'datasets': [                            │ │
+│ │                 │   │   │   │   │   {                                    │ │
+│ │                 │   │   │   │   │   │   'name': 'imagenet-c',            │ │
+│ │                 │   │   │   │   │   │   'corruptions': [                 │ │
+│ │                 │   │   │   │   │   │   │   'shot_noise',                │ │
+│ │                 │   │   │   │   │   │   │   'impulse_noise',             │ │
+│ │                 │   │   │   │   │   │   │   'defocus_blur',              │ │
+│ │                 │   │   │   │   │   │   │   'glass_blur',                │ │
+│ │                 │   │   │   │   │   │   │   'motion_blur',               │ │
+│ │                 │   │   │   │   │   │   │   'zoom_blur',                 │ │
+│ │                 │   │   │   │   │   │   │   'snow',                      │ │
+│ │                 │   │   │   │   │   │   │   'frost',                     │ │
+│ │                 │   │   │   │   │   │   │   'fog',                       │ │
+│ │                 │   │   │   │   │   │   │   'brightness',                │ │
+│ │                 │   │   │   │   │   │   │   ... +5                       │ │
+│ │                 │   │   │   │   │   │   ],                               │ │
+│ │                 │   │   │   │   │   │   'severities': [1, 2, 3, 4, 5]    │ │
+│ │                 │   │   │   │   │   }                                    │ │
+│ │                 │   │   │   │   ]                                        │ │
+│ │                 │   │   │   },                                           │ │
+│ │                 │   │   │   'imagenet-r': {                              │ │
+│ │                 │   │   │   │   'task': 'classification',                │ │
+│ │                 │   │   │   │   'datasets': [                            │ │
+│ │                 │   │   │   │   │   {                                    │ │
+│ │                 │   │   │   │   │   │   'name': 'axiong/imagenet-r',     │ │
+│ │                 │   │   │   │   │   │   'split': 'train'                 │ │
+│ │                 │   │   │   │   │   }                                    │ │
+│ │                 │   │   │   │   ]                                        │ │
+│ │                 │   │   │   },                                           │ │
+│ │                 │   │   │   'visda-c': {                                 │ │
+│ │                 │   │   │   │   'task': 'classification',                │ │
+│ │                 │   │   │   │   'datasets': [                            │ │
+│ │                 │   │   │   │   │   {                                    │ │
+│ │                 │   │   │   │   │   │   'name': 'M-V-A/visda-c',         │ │
+│ │                 │   │   │   │   │   │   'split': 'validation'            │ │
+│ │                 │   │   │   │   │   }                                    │ │
+│ │                 │   │   │   │   ]                                        │ │
+│ │                 │   │   │   },                                           │ │
+│ │                 │   │   │   'cityscapes-acdc': {                         │ │
+│ │                 │   │   │   │   'task': 'segmentation',                  │ │
+│ │                 │   │   │   │   'datasets': [                            │ │
+│ │                 │   │   │   │   │   {                                    │ │
+│ │                 │   │   │   │   │   │   'name': 'tackhwa/cityscapes',    │ │
+│ │                 │   │   │   │   │   │   'split': 'validation'            │ │
+│ │                 │   │   │   │   │   },                                   │ │
+│ │                 │   │   │   │   │   {                                    │ │
+│ │                 │   │   │   │   │   │   'name': 'gopro/acdc',            │ │
+│ │                 │   │   │   │   │   │   'split': 'test',                 │ │
+│ │                 │   │   │   │   │   │   'subset': 'snow'                 │ │
+│ │                 │   │   │   │   │   }                                    │ │
+│ │                 │   │   │   │   ]                                        │ │
+│ │                 │   │   │   },                                           │ │
+│ │                 │   │   │   'imagenet-c-sev3': {                         │ │
+│ │                 │   │   │   │   'task': 'classification',                │ │
+│ │                 │   │   │   │   'datasets': [                            │ │
+│ │                 │   │   │   │   │   {                                    │ │
+│ │                 │   │   │   │   │   │   'name': 'imagenet-c',            │ │
+│ │                 │   │   │   │   │   │   'corruptions': [                 │ │
+│ │                 │   │   │   │   │   │   │   'shot_noise',                │ │
+│ │                 │   │   │   │   │   │   │   'snow',                      │ │
+│ │                 │   │   │   │   │   │   │   'fog',                       │ │
+│ │                 │   │   │   │   │   │   │   'brightness',                │ │
+│ │                 │   │   │   │   │   │   │   'contrast'                   │ │
+│ │                 │   │   │   │   │   │   ],                               │ │
+│ │                 │   │   │   │   │   │   'severities': [3]                │ │
+│ │                 │   │   │   │   │   }                                    │ │
+│ │                 │   │   │   │   ]                                        │ │
+│ │                 │   │   │   },                                           │ │
+│ │                 │   │   │   'harsh-jump-stream': {                       │ │
+│ │                 │   │   │   │   'task': 'classification',                │ │
+│ │                 │   │   │   │   'datasets': [                            │ │
+│ │                 │   │   │   │   │   {                                    │ │
+│ │                 │   │   │   │   │   │   'name': 'imagenet_v2',           │ │
+│ │                 │   │   │   │   │   │   'split': 'test',                 │ │
+│ │                 │   │   │   │   │   │   'subset': 'matched_frequency'    │ │
+│ │                 │   │   │   │   │   },                                   │ │
+│ │                 │   │   │   │   │   {                                    │ │
+│ │                 │   │   │   │   │   │   'name':                          │ │
+│ │                 'haideraltahan/wds_imagenetc',                           │ │
+│ │                 │   │   │   │   │   │   'subset': 'fog_3'                │ │
+│ │                 │   │   │   │   │   },                                   │ │
+│ │                 │   │   │   │   │   {                                    │ │
+│ │                 │   │   │   │   │   │   'name':                          │ │
+│ │                 'haideraltahan/wds_imagenetc',                           │ │
+│ │                 │   │   │   │   │   │   'subset': 'snow_4'               │ │
+│ │                 │   │   │   │   │   },                                   │ │
+│ │                 │   │   │   │   │   {                                    │ │
+│ │                 │   │   │   │   │   │   'name':                          │ │
+│ │                 'haideraltahan/wds_imagenetc',                           │ │
+│ │                 │   │   │   │   │   │   'subset': 'brightness_5'         │ │
+│ │                 │   │   │   │   │   }                                    │ │
+│ │                 │   │   │   │   ]                                        │ │
+│ │                 │   │   │   }                                            │ │
+│ │                 │   │   }                                                │ │
+│ │                 │   },                                                   │ │
+│ │                 │   'train': {                                           │ │
+│ │                 │   │   'template_model': 'ViT-B/16',                    │ │
+│ │                 │   │   'epochs': 50,                                    │ │
+│ │                 │   │   'max_timesteps': 100000,                         │ │
+│ │                 │   │   'lambda_e': 1.0,                                 │ │
+│ │                 │   │   'lambda_s': 0.1,                                 │ │
+│ │                 │   │   'synthetic_stream': {                            │ │
+│ │                 │   │   │   'source_dataset': 'imagenet-1k',             │ │
+│ │                 │   │   │   'split': 'train',                            │ │
+│ │                 │   │   │   'batch_size': 32                             │ │
+│ │                 │   │   },                                               │ │
+│ │                 │   │   'lance_params': {                                │ │
+│ │                 │   │   │   'rank': 4,                                   │ │
+│ │                 │   │   │   'rnn_hidden_size': 32,                       │ │
+│ │                 │   │   │   'ukf_threshold_sigma': 2.0                   │ │
+│ │                 │   │   },                                               │ │
+│ │                 │   │   'ppo': {                                         │ │
+│ │                 │   │   │   'lr': [0.0001, 0.0005],                      │ │
+│ │                 │   │   │   'betas': [0.9, 0.999],                       │ │
+│ │                 │   │   │   'gamma': 0.99,                               │ │
+│ │                 │   │   │   'k_epochs': 10,                              │ │
+│ │                 │   │   │   'eps_clip': 0.2,                             │ │
+│ │                 │   │   │   'update_timestep': 2048                      │ │
+│ │                 │   │   }                                                │ │
+│ │                 │   },                                                   │ │
+│ │                 │   'evaluate': {                                        │ │
+│ │                 │   │   'exp1': {                                        │ │
+│ │                 │   │   │   'models': [                                  │ │
+│ │                 │   │   │   │   'ResNet-50-BN',                          │ │
+│ │                 │   │   │   │   'ConvNeXt-T',                            │ │
+│ │                 │   │   │   │   'ViT-B/16',                              │ │
+│ │                 │   │   │   │   'Swin-T'                                 │ │
+│ │                 │   │   │   ],                                           │ │
+│ │                 │   │   │   'methods': [                                 │ │
+│ │                 │   │   │   │   'Source-only',                           │ │
+│ │                 │   │   │   │   {                                        │ │
+│ │                 │   │   │   │   │   'name': 'Tent',                      │ │
+│ │                 │   │   │   │   │   'params': {                          │ │
+│ │                 │   │   │   │   │   │   'steps': 5,                      │ │
+│ │                 │   │   │   │   │   │   'lr': 0.00025                    │ │
+│ │                 │   │   │   │   │   }                                    │ │
+│ │                 │   │   │   │   },                                       │ │
+│ │                 │   │   │   │   {                                        │ │
+│ │                 │   │   │   │   │   'name': 'FAST-LANA',                 │ │
+│ │                 │   │   │   │   │   'params': {'lr': 0.0001}             │ │
+│ │                 │   │   │   │   },                                       │ │
+│ │                 │   │   │   │   'LANCE'                                  │ │
+│ │                 │   │   │   ],                                           │ │
+│ │                 │   │   │   'streams': [                                 │ │
+│ │                 │   │   │   │   'imagenet-c',                            │ │
+│ │                 │   │   │   │   'imagenet-r',                            │ │
+│ │                 │   │   │   │   'cityscapes-acdc'                        │ │
+│ │                 │   │   │   ]                                            │ │
+│ │                 │   │   },                                               │ │
+│ │                 │   │   'exp2': {                                        │ │
+│ │                 │   │   │   'models': [                                  │ │
+│ │                 │   │   │   │   'ViT-S',                                 │ │
+│ │                 │   │   │   │   'ViT-B/16',                              │ │
+│ │                 │   │   │   │   'ViT-L',                                 │ │
+│ │                 │   │   │   │   'Swin-L'                                 │ │
+│ │                 │   │   │   ],                                           │ │
+│ │                 │   │   │   'methods': [                                 │ │
+│ │                 │   │   │   │   {                                        │ │
+│ │                 │   │   │   │   │   'name': 'LANCE-Full',                │ │
+│ │                 │   │   │   │   │   'type': 'LANCE'                      │ │
+│ │                 │   │   │   │   },                                       │ │
+│ │                 │   │   │   │   {                                        │ │
+│ │                 │   │   │   │   │   'name': 'LANCE-NoEnergy',            │ │
+│ │                 │   │   │   │   │   'type': 'LANCE',                     │ │
+│ │                 │   │   │   │   │   'params': {'lambda_e': 0}            │ │
+│ │                 │   │   │   │   },                                       │ │
+│ │                 │   │   │   │   {                                        │ │
+│ │                 │   │   │   │   │   'name': 'LANCE-PerChannel',          │ │
+│ │                 │   │   │   │   │   'type': 'LANCE',                     │ │
+│ │                 │   │   │   │   │   'params': {'use_low_rank': False}    │ │
+│ │                 │   │   │   │   },                                       │ │
+│ │                 │   │   │   │   {                                        │ │
+│ │                 │   │   │   │   │   'name': 'LANCE-NoUKF',               │ │
+│ │                 │   │   │   │   │   'type': 'LANCE',                     │ │
+│ │                 │   │   │   │   │   'params': {'no_ukf': True}           │ │
+│ │                 │   │   │   │   },                                       │ │
+│ │                 │   │   │   │   {                                        │ │
+│ │                 │   │   │   │   │   'name': 'LANCE-StaticHypernet',      │ │
+│ │                 │   │   │   │   │   'type': 'LANCE',                     │ │
+│ │                 │   │   │   │   │   'params': {                          │ │
+│ │                 │   │   │   │   │   │   'static_hypernet': True          │ │
+│ │                 │   │   │   │   │   }                                    │ │
+│ │                 │   │   │   │   }                                        │ │
+│ │                 │   │   │   ],                                           │ │
+│ │                 │   │   │   'streams': ['imagenet-c-sev3']               │ │
+│ │                 │   │   },                                               │ │
+│ │                 │   │   'exp3': {                                        │ │
+│ │                 │   │   │   'models': ['ViT-B/16'],                      │ │
+│ │                 │   │   │   'methods': [                                 │ │
+│ │                 │   │   │   │   'Source-only',                           │ │
+│ │                 │   │   │   │   {                                        │ │
+│ │                 │   │   │   │   │   'name': 'Tent',                      │ │
+│ │                 │   │   │   │   │   'params': {                          │ │
+│ │                 │   │   │   │   │   │   'steps': 1,                      │ │
+│ │                 │   │   │   │   │   │   'lr': 0.001                      │ │
+│ │                 │   │   │   │   │   }                                    │ │
+│ │                 │   │   │   │   },                                       │ │
+│ │                 │   │   │   │   {                                        │ │
+│ │                 │   │   │   │   │   'name': 'FAST-LANA',                 │ │
+│ │                 │   │   │   │   │   'params': {'lr': 0.0001}             │ │
+│ │                 │   │   │   │   },                                       │ │
+│ │                 │   │   │   │   'BN-adapt',                              │ │
+│ │                 │   │   │   │   'LANCE'                                  │ │
+│ │                 │   │   │   ],                                           │ │
+│ │                 │   │   │   'streams': ['harsh-jump-stream'],            │ │
+│ │                 │   │   │   'use_pgd': True,                             │ │
+│ │                 │   │   │   'pgd_interval': 2000,                        │ │
+│ │                 │   │   │   'pgd_duration': 2000,                        │ │
+│ │                 │   │   │   'pgd_params': {                              │ │
+│ │                 │   │   │   │   'eps': 0.01568,                          │ │
+│ │                 │   │   │   │   'alpha': 0.00784,                        │ │
+│ │                 │   │   │   │   'steps': 3                               │ │
+│ │                 │   │   │   }                                            │ │
+│ │                 │   │   }                                                │ │
+│ │                 │   }                                                    │ │
+│ │                 }                                                        │ │
+│ │    corruption = 'gaussian_noise'                                         │ │
+│ │             d = DatasetDict({                                            │ │
+│ │                 │   test: Dataset({                                      │ │
+│ │                 │   │   features: ['text'],                              │ │
+│ │                 │   │   num_rows: 1                                      │ │
+│ │                 │   })                                                   │ │
+│ │                 })                                                       │ │
+│ │   dataloaders = {}                                                       │ │
+│ │       ds_info = {                                                        │ │
+│ │                 │   'name': 'imagenet-c',                                │ │
+│ │                 │   'corruptions': [                                     │ │
+│ │                 │   │   'shot_noise',                                    │ │
+│ │                 │   │   'impulse_noise',                                 │ │
+│ │                 │   │   'defocus_blur',                                  │ │
+│ │                 │   │   'glass_blur',                                    │ │
+│ │                 │   │   'motion_blur',                                   │ │
+│ │                 │   │   'zoom_blur',                                     │ │
+│ │                 │   │   'snow',                                          │ │
+│ │                 │   │   'frost',                                         │ │
+│ │                 │   │   'fog',                                           │ │
+│ │                 │   │   'brightness',                                    │ │
+│ │                 │   │   ... +5                                           │ │
+│ │                 │   ],                                                   │ │
+│ │                 │   'severities': [1, 2, 3, 4, 5]                        │ │
+│ │                 }                                                        │ │
+│ │   hf_datasets = [                                                        │ │
+│ │                 │   DatasetDict({                                        │ │
+│ │                 │   test: Dataset({                                      │ │
+│ │                 │   │   features: ['text'],                              │ │
+│ │                 │   │   num_rows: 1                                      │ │
+│ │                 │   })                                                   │ │
+│ │                 }),                                                      │ │
+│ │                 │   DatasetDict({                                        │ │
+│ │                 │   test: Dataset({                                      │ │
+│ │                 │   │   features: ['text'],                              │ │
+│ │                 │   │   num_rows: 1                                      │ │
+│ │                 │   })                                                   │ │
+│ │                 }),                                                      │ │
+│ │                 │   DatasetDict({                                        │ │
+│ │                 │   test: Dataset({                                      │ │
+│ │                 │   │   features: ['text'],                              │ │
+│ │                 │   │   num_rows: 1                                      │ │
+│ │                 │   })                                                   │ │
+│ │                 }),                                                      │ │
+│ │                 │   DatasetDict({                                        │ │
+│ │                 │   test: Dataset({                                      │ │
+│ │                 │   │   features: ['text'],                              │ │
+│ │                 │   │   num_rows: 1                                      │ │
+│ │                 │   })                                                   │ │
+│ │                 }),                                                      │ │
+│ │                 │   DatasetDict({                                        │ │
+│ │                 │   test: Dataset({                                      │ │
+│ │                 │   │   features: ['text'],                              │ │
+│ │                 │   │   num_rows: 1                                      │ │
+│ │                 │   })                                                   │ │
+│ │                 }),                                                      │ │
+│ │                 │   DatasetDict({                                        │ │
+│ │                 │   test: Dataset({                                      │ │
+│ │                 │   │   features: ['text'],                              │ │
+│ │                 │   │   num_rows: 1                                      │ │
+│ │                 │   })                                                   │ │
+│ │                 }),                                                      │ │
+│ │                 │   DatasetDict({                                        │ │
+│ │                 │   test: Dataset({                                      │ │
+│ │                 │   │   features: ['text'],                              │ │
+│ │                 │   │   num_rows: 1                                      │ │
+│ │                 │   })                                                   │ │
+│ │                 }),                                                      │ │
+│ │                 │   DatasetDict({                                        │ │
+│ │                 │   test: Dataset({                                      │ │
+│ │                 │   │   features: ['text'],                              │ │
+│ │                 │   │   num_rows: 1                                      │ │
+│ │                 │   })                                                   │ │
+│ │                 }),                                                      │ │
+│ │                 │   DatasetDict({                                        │ │
+│ │                 │   test: Dataset({                                      │ │
+│ │                 │   │   features: ['text'],                              │ │
+│ │                 │   │   num_rows: 1                                      │ │
+│ │                 │   })                                                   │ │
+│ │                 }),                                                      │ │
+│ │                 │   DatasetDict({                                        │ │
+│ │                 │   test: Dataset({                                      │ │
+│ │                 │   │   features: ['text'],                              │ │
+│ │                 │   │   num_rows: 1                                      │ │
+│ │                 │   })                                                   │ │
+│ │                 }),                                                      │ │
+│ │                 │   ... +65                                              │ │
+│ │                 ]                                                        │ │
+│ │   num_workers = 8                                                        │ │
+│ │ seg_transform = Compose(                                                 │ │
+│ │                 │   Resize(size=(1024, 2048), interpolation=bilinear,    │ │
+│ │                 max_size=None, antialias=warn)                           │ │
+│ │                 │   ToTensor()                                           │ │
+│ │                 │   Normalize(mean=[0.286, 0.325, 0.283], std=[0.176,    │ │
+│ │                 0.18, 0.177])                                            │ │
+│ │                 )                                                        │ │
+│ │      severity = 5                                                        │ │
+│ │         split = 'validation'                                             │ │
+│ │ stream_config = {                                                        │ │
+│ │                 │   'task': 'classification',                            │ │
+│ │                 │   'datasets': [                                        │ │
+│ │                 │   │   {                                                │ │
+│ │                 │   │   │   'name': 'imagenet-c',                        │ │
+│ │                 │   │   │   'corruptions': [                             │ │
+│ │                 │   │   │   │   'shot_noise',                            │ │
+│ │                 │   │   │   │   'impulse_noise',                         │ │
+│ │                 │   │   │   │   'defocus_blur',                          │ │
+│ │                 │   │   │   │   'glass_blur',                            │ │
+│ │                 │   │   │   │   'motion_blur',                           │ │
+│ │                 │   │   │   │   'zoom_blur',                             │ │
+│ │                 │   │   │   │   'snow',                                  │ │
+│ │                 │   │   │   │   'frost',                                 │ │
+│ │                 │   │   │   │   'fog',                                   │ │
+│ │                 │   │   │   │   'brightness',                            │ │
+│ │                 │   │   │   │   ... +5                                   │ │
+│ │                 │   │   │   ],                                           │ │
+│ │                 │   │   │   'severities': [1, 2, 3, 4, 5]                │ │
+│ │                 │   │   }                                                │ │
+│ │                 │   ]                                                    │ │
+│ │                 }                                                        │ │
+│ │   stream_name = 'imagenet-c'                                             │ │
+│ │   subset_name = 'gaussian_noise_5'                                       │ │
+│ ╰──────────────────────────────────────────────────────────────────────────╯ │
+│                                                                              │
+│ /home/toma/pt-80-1-a-13/_work/experiment_matsuzawa_250918_2/experiment_matsu │
+│ zawa_250918_2/.venv/lib/python3.11/site-packages/datasets/combine.py:197 in  │
+│ concatenate_datasets                                                         │
+│                                                                              │
+│   194 │   │   │   │   │   │   f"Expected a list of Dataset objects or a list │
+│   195 │   │   │   │   │   │   "is an empty dataset dictionary."              │
+│   196 │   │   │   │   │   )                                                  │
+│ ❱ 197 │   │   │   │   raise ValueError(                                      │
+│   198 │   │   │   │   │   f"Dataset at position {i} has at least one split:  │
+│   199 │   │   │   │   │   f"Please pick one to interleave with the other dat │
+│   200 │   │   │   │   )                                                      │
+│                                                                              │
+│ ╭─────────────── locals ────────────────╮                                    │
+│ │    axis = 0                           │                                    │
+│ │ dataset = DatasetDict({               │                                    │
+│ │           │   test: Dataset({         │                                    │
+│ │           │   │   features: ['text'], │                                    │
+│ │           │   │   num_rows: 1         │                                    │
+│ │           │   })                      │                                    │
+│ │           })                          │                                    │
+│ │   dsets = [                           │                                    │
+│ │           │   DatasetDict({           │                                    │
+│ │           │   test: Dataset({         │                                    │
+│ │           │   │   features: ['text'], │                                    │
+│ │           │   │   num_rows: 1         │                                    │
+│ │           │   })                      │                                    │
+│ │           }),                         │                                    │
+│ │           │   DatasetDict({           │                                    │
+│ │           │   test: Dataset({         │                                    │
+│ │           │   │   features: ['text'], │                                    │
+│ │           │   │   num_rows: 1         │                                    │
+│ │           │   })                      │                                    │
+│ │           }),                         │                                    │
+│ │           │   DatasetDict({           │                                    │
+│ │           │   test: Dataset({         │                                    │
+│ │           │   │   features: ['text'], │                                    │
+│ │           │   │   num_rows: 1         │                                    │
+│ │           │   })                      │                                    │
+│ │           }),                         │                                    │
+│ │           │   DatasetDict({           │                                    │
+│ │           │   test: Dataset({         │                                    │
+│ │           │   │   features: ['text'], │                                    │
+│ │           │   │   num_rows: 1         │                                    │
+│ │           │   })                      │                                    │
+│ │           }),                         │                                    │
+│ │           │   DatasetDict({           │                                    │
+│ │           │   test: Dataset({         │                                    │
+│ │           │   │   features: ['text'], │                                    │
+│ │           │   │   num_rows: 1         │                                    │
+│ │           │   })                      │                                    │
+│ │           }),                         │                                    │
+│ │           │   DatasetDict({           │                                    │
+│ │           │   test: Dataset({         │                                    │
+│ │           │   │   features: ['text'], │                                    │
+│ │           │   │   num_rows: 1         │                                    │
+│ │           │   })                      │                                    │
+│ │           }),                         │                                    │
+│ │           │   DatasetDict({           │                                    │
+│ │           │   test: Dataset({         │                                    │
+│ │           │   │   features: ['text'], │                                    │
+│ │           │   │   num_rows: 1         │                                    │
+│ │           │   })                      │                                    │
+│ │           }),                         │                                    │
+│ │           │   DatasetDict({           │                                    │
+│ │           │   test: Dataset({         │                                    │
+│ │           │   │   features: ['text'], │                                    │
+│ │           │   │   num_rows: 1         │                                    │
+│ │           │   })                      │                                    │
+│ │           }),                         │                                    │
+│ │           │   DatasetDict({           │                                    │
+│ │           │   test: Dataset({         │                                    │
+│ │           │   │   features: ['text'], │                                    │
+│ │           │   │   num_rows: 1         │                                    │
+│ │           │   })                      │                                    │
+│ │           }),                         │                                    │
+│ │           │   DatasetDict({           │                                    │
+│ │           │   test: Dataset({         │                                    │
+│ │           │   │   features: ['text'], │                                    │
+│ │           │   │   num_rows: 1         │                                    │
+│ │           │   })                      │                                    │
+│ │           }),                         │                                    │
+│ │           │   ... +65                 │                                    │
+│ │           ]                           │                                    │
+│ │       i = 0                           │                                    │
+│ │    info = None                        │                                    │
+│ │   split = None                        │                                    │
+│ ╰───────────────────────────────────────╯                                    │
+╰──────────────────────────────────────────────────────────────────────────────╯
+ValueError: Dataset at position 0 has at least one split: ['test']
+Please pick one to interleave with the other datasets, for example: 
+dataset['test']
