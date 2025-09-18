@@ -1,0 +1,116 @@
+global_settings:
+  seeds: [13, 37, 97]
+  device: "cuda:0"
+  output_dir: ".research/iteration1/"
+
+models:
+  ResNet-50-BN: { source: 'resnet50' }
+  ConvNeXt-T: { source: 'convnext_tiny' }
+  ViT-B/16: { source: 'vit_base_patch16_224' }
+  Swin-T: { source: 'swin_tiny_patch4_window7_224' }
+  ViT-S: { source: 'vit_small_patch16_224' }
+  ViT-L: { source: 'vit_large_patch16_224' }
+  Swin-L: { source: 'swin_large_patch4_window7_224' }
+
+preprocess:
+  cache_dir: "./data/"
+  batch_size: 4 # For 200 img/s simulation
+  num_workers: 8
+  mean: [0.485, 0.456, 0.406]
+  std: [0.229, 0.224, 0.225]
+  cityscapes_mean: [0.286, 0.325, 0.283]
+  cityscapes_std: [0.176, 0.180, 0.177]
+  streams:
+    imagenet-c:
+      task: 'classification'
+      datasets:
+        - name: 'imagenet-c'
+          corruptions: ['shot_noise', 'impulse_noise', 'defocus_blur', 'glass_blur', 'motion_blur', 'zoom_blur', 'snow', 'frost', 'fog', 'brightness', 'contrast', 'elastic_transform', 'pixelate', 'jpeg_compression', 'gaussian_noise']
+          severities: [1, 2, 3, 4, 5]
+    imagenet-r:
+      task: 'classification'
+      datasets: [{ name: 'axiong/imagenet-r', split: 'train' }]
+    visda-c:
+      task: 'classification'
+      datasets: [{ name: 'M-V-A/visda-c', split: 'validation' }] # This is a placeholder and WILL fail as per no-fallback rule
+    cityscapes-acdc:
+      task: 'segmentation'
+      datasets:
+        - { name: 'tackhwa/cityscapes', split: 'validation' }
+        - { name: 'gopro/acdc', split: 'test', subset: 'snow' }
+    imagenet-c-sev3:
+      task: 'classification'
+      datasets: 
+        - name: 'imagenet-c'
+          corruptions: ['shot_noise', 'snow', 'fog', 'brightness', 'contrast']
+          severities: [3]
+    harsh-jump-stream:
+      task: 'classification'
+      datasets: 
+        - { name: 'imagenet_v2', split: 'test', subset: 'matched_frequency'}
+        - { name: 'hendrycks/imagenet-c', subset: 'fog_3' }
+        - { name: 'hendrycks/imagenet-c', subset: 'snow_4' }
+        - { name: 'hendrycks/imagenet-c', subset: 'brightness_5' } # Proxy for night
+
+train:
+  template_model: 'ViT-B/16'
+  epochs: 50
+  max_timesteps: 100000
+  lambda_e: 1.0
+  lambda_s: 0.1
+  synthetic_stream:
+    source_dataset: 'imagenet-1k'
+    split: 'train'
+    batch_size: 32
+  lance_params:
+    rank: 4
+    rnn_hidden_size: 32
+    ukf_threshold_sigma: 2.0
+  ppo:
+    lr: [0.0001, 0.0005] # Actor, Critic
+    betas: [0.9, 0.999]
+    gamma: 0.99
+    k_epochs: 10
+    eps_clip: 0.2
+    update_timestep: 2048
+
+evaluate:
+  exp1: # Unified Benchmark
+    models: ['ResNet-50-BN', 'ConvNeXt-T', 'ViT-B/16', 'Swin-T']
+    methods:
+      - 'Source-only'
+      - name: 'Tent'
+        params: { steps: 5, lr: 0.00025 }
+      - name: 'FAST-LANA'
+        params: { lr: 0.0001 }
+      - 'LANCE'
+    streams: ['imagenet-c', 'imagenet-r', 'cityscapes-acdc'] # Skipping visda-c as it won't load
+
+  exp2: # Component Ablation
+    models: ['ViT-S', 'ViT-B/16', 'ViT-L', 'Swin-L']
+    methods:
+      - { name: 'LANCE-Full', type: 'LANCE' }
+      - { name: 'LANCE-NoEnergy', type: 'LANCE', params: { lambda_e: 0 } }
+      - { name: 'LANCE-PerChannel', type: 'LANCE', params: { use_low_rank: false } } # Not fully implemented, will run as LANCE
+      - { name: 'LANCE-NoUKF', type: 'LANCE', params: { no_ukf: true } }
+      - { name: 'LANCE-StaticHypernet', type: 'LANCE', params: { static_hypernet: true } }
+    streams: ['imagenet-c-sev3']
+
+  exp3: # Robustness Stress-Test
+    models: ['ViT-B/16']
+    methods:
+      - 'Source-only'
+      - name: 'Tent'
+        params: { steps: 1, lr: 0.001 }
+      - name: 'FAST-LANA'
+        params: { lr: 0.0001 }
+      - 'BN-adapt'
+      - 'LANCE'
+    streams: ['harsh-jump-stream']
+    use_pgd: true
+    pgd_interval: 2000 # frames
+    pgd_duration: 2000 # frames
+    pgd_params:
+      eps: 0.01568 # 4/255
+      alpha: 0.00784 # 2/255
+      steps: 3

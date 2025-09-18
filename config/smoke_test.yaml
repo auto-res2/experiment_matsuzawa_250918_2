@@ -1,0 +1,60 @@
+global_settings:
+  seeds: [42]
+  device: "cuda:0"
+  output_dir: ".research/iteration1/"
+
+models:
+  ResNet-50-BN: { source: 'resnet50' } # timm model name
+
+preprocess:
+  cache_dir: "./data/"
+  batch_size: 2
+  num_workers: 2
+  mean: [0.485, 0.456, 0.406]
+  std: [0.229, 0.224, 0.225]
+  cityscapes_mean: [0.286, 0.325, 0.283]
+  cityscapes_std: [0.176, 0.180, 0.177]
+  streams:
+    imagenet-c_fog_1:
+      task: 'classification'
+      datasets:
+        - name: 'imagenet-c'
+          corruptions: ['fog']
+          severities: [1]
+
+smoke_test:
+  batch_size: 2
+  train_epochs: 1
+  train_timesteps: 50
+  eval_frames: 50
+
+train:
+  template_model: 'ResNet-50-BN'
+  epochs: 1
+  max_timesteps: 50
+  lambda_e: 0.5
+  lambda_s: 0.01
+  synthetic_stream:
+    source_dataset: 'cifar10'
+    batch_size: 8
+  lance_params:
+    rank: 2
+    rnn_hidden_size: 16
+    ukf_threshold_sigma: 3.0
+  ppo:
+    lr: [0.0003, 0.001]
+    betas: [0.9, 0.999]
+    gamma: 0.99
+    k_epochs: 4
+    eps_clip: 0.2
+    update_timestep: 20
+
+evaluate:
+  exp1:
+    models: ['ResNet-50-BN']
+    methods: 
+      - 'Source-only'
+      - name: 'Tent'
+        params: { steps: 1, lr: 0.001 }
+      - 'LANCE'
+    streams: ['imagenet-c_fog_1']
