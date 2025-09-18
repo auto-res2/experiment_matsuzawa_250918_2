@@ -1,0 +1,61 @@
+# Full experiment configurations for APEX-Zero
+
+experiment_1_micro_overhead:
+  name: 'exp1_micro_overhead_benchmark'
+  dataset:
+    name: 'ogbn-arxiv'
+  model:
+    depth: 8
+    hidden_dim: 64
+    heads: 8
+    allowed_bits: [0, 4, 8, 16] # APEX-Zero default
+  training:
+    lr: 0.0003
+    weight_decay: 0.005
+    epochs: 3
+    warmup_steps: 200
+    predictor_tau: 0.15
+    sigma2_target: 0.001
+  seeds: [0, 1, 2, 3, 4]
+
+experiment_2_knapsack_efficacy:
+  name: 'exp2_knapsack_efficacy_A_FullApexZero'
+  dataset:
+    name: 'ogbn-products'
+  model:
+    depth: 16
+    hidden_dim: 128
+    heads: 8
+    allowed_bits: [0, 4, 8, 16]
+  training:
+    lr: 0.0002
+    weight_decay: 0.01
+    epochs: 10 # Reduced for feasibility, 100 is long
+    warmup_steps: 500
+    predictor_tau: 0.15
+    sigma2_target: 0.001
+  seeds: [0, 1, 2]
+
+# Note: Other conditions for Experiment 2 (B, C, D, E) would be separate entries
+# or handled by modifying the config dynamically. For this file, we define one representative case.
+
+experiment_3_energy_model:
+  name: 'exp3_energy_model_A100'
+  dataset:
+    name: 'Reddit'
+  model:
+    depth: 3
+    hidden_dim: 64
+    heads: 4
+    allowed_bits: [0, 4, 8, 16]
+  training:
+    lr: 0.001
+    weight_decay: 0.001
+    epochs: 2
+    warmup_steps: 100
+    predictor_tau: 0.15
+    sigma2_target: 0.001
+  energy_model:
+    fit: true
+    fit_batches: 30
+  seeds: [42]

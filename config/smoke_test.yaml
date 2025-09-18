@@ -1,0 +1,17 @@
+experiment_1_micro_overhead:
+  name: 'smoke_test_micro_overhead'
+  dataset:
+    name: 'Cora'
+  model:
+    depth: 3
+    hidden_dim: 32
+    heads: 4
+    allowed_bits: [0, 8, 16]
+  training:
+    lr: 0.005
+    weight_decay: 0.0005
+    epochs: 2
+    warmup_steps: 1
+    predictor_tau: 0.15
+    sigma2_target: 0.002
+  seeds: [42]
